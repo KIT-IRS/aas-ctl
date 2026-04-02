@@ -1,0 +1,19 @@
+{
+    "activeProfile": {
+        "name": "localhost",
+        "url": "http://localhost",
+        "ports": {"discovery": 8084, "registry": 8082, "sm-registry": 8083, "repository": 8081, "sm-repository": 8081, "concept-descriptions": 8081}
+    },
+    "profiles": [
+        {
+            "name": "example",
+            "url": "http://example.com/example",
+            "ports": {"discovery": 8084, "registry": 8082, "sm-registry": 8083, "repository": 8081, "sm-repository": 8081, "concept-descriptions": 8081}
+        },
+        {
+            "name": "localhost",
+            "url": "http://localhost",
+            "ports": {"discovery": 8084, "registry": 8082, "sm-registry": 8083, "repository": 8081, "sm-repository": 8081, "concept-descriptions": 8081}
+        }
+    ]
+}
