@@ -1,4 +1,7 @@
 # AAS-CTL - Asset Administration Shell Command Line Tool
+<p align="center">
+    <img src="./logo/aas-ctl.png" alt="Description" width="300">
+</p>
 
 A simple, user-friendly command line tool to browse and interact with **Asset Administration Shell (AAS)** repositories.
 
