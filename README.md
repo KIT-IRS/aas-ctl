@@ -16,6 +16,10 @@ This command line tool can be used to:
 - discover repositories via a top down (file-explorer) like approach (discover)
 - execute REST-API requests (get, patch, post, put)
 
+### Main Contributors
+- Silas Baumann (@)
+- Moritz Dorn (@)
+
 ## Contents
 
 1. [Getting Started](#getting-started)
