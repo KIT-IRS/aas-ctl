@@ -17,8 +17,8 @@ This command line tool can be used to:
 - execute REST-API requests (get, patch, post, put)
 
 ### Main Contributors
-- Silas Baumann (@)
-- Moritz Dorn (@)
+- [Silas Baumann](https://github.com/s-lias)
+- [Moritz Dorn](https://github.com/Moritz-Dorn)
 
 ## Contents
 
