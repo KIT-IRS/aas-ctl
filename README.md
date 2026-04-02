@@ -28,7 +28,11 @@ This command line tool can be used to:
     - [Usage](#usage)
     - [Formatting](#formatting)
 3. [Example usage](#example-usage)
-4. [Contributing](#contributing)
+4. [AI Agent Integration](#ai-agent-integration)
+    - [Setup for VS Code with GitHub Copilot](#setup-for-vs-code-with-github-copilot)
+    - [Setup for other AI agents](#setup-for-other-ai-agents)
+    - [What the agent can do](#what-the-agent-can-do)
+5. [Contributing](#contributing)
 
 ## Getting Started
 
@@ -1057,6 +1061,33 @@ $sme | aas-ctl put $url
 It has to be done using a pipeline, because otherwise it is not possible to pass a raw JSON as an argument.
 
 Note: If the goal is, to only edit the value of a SubmodelElement, the "patch" command can be used to achieve this faster (see [patch command](#patch)).
+
+## AI Agent Integration
+
+aas-ctl is especially useful for AI coding agents, since it gives them efficient, structured and context-efficient access to AAS repository data via the command line. This repository ships ready-to-use configuration files in the `agentic-usage/` folder:
+
+| File | Purpose |
+|------|---------|
+| `agentic-usage/skills/aas-ctl/SKILL.md` | Skill definition — teaches the agent all aas-ctl commands and workflows |
+| `agentic-usage/agents/aas.agent.md` | Custom agent — an AAS expert persona with constraints and a structured approach |
+
+### What the agent can do
+
+Once configured, the AI agent can:
+
+- List and explore all shells and submodels in your AAS repository
+- Look up specific submodel element values by name or index
+- Search for shells matching given criteria (submodel, element, value)
+- Navigate the repository structure interactively via discovery
+- Read, create, update, and patch AAS data
+- Return results as human-readable text, IDs, URLs, or full JSON
+
+Example prompts you can use with the agent:
+
+- *"List all shells in the repository"*
+- *"What is the serial number of the TemperatureSensor?"*
+- *"Find all shells that have a Nameplate submodel"*
+- *"Show me the full JSON of the Parameters submodel"*
 
 ## Contributing
 
