@@ -33,8 +33,6 @@ This command line tool can be used to:
     - [Formatting](#formatting)
 3. [Example usage](#example-usage)
 4. [AI Agent Integration](#ai-agent-integration)
-    - [Setup for VS Code with GitHub Copilot](#setup-for-vs-code-with-github-copilot)
-    - [Setup for other AI agents](#setup-for-other-ai-agents)
     - [What the agent can do](#what-the-agent-can-do)
 5. [Contributing](#contributing)
 
