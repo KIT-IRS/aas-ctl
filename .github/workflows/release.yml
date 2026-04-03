@@ -25,6 +25,13 @@ jobs:
           - goos: darwin
             goarch: arm64
             asset_name: aas-ctl-darwin-arm64
+          - goos: linux
+            goarch: arm64
+            asset_name: aas-ctl-linux-arm64
+          - goos: linux
+            goarch: arm
+            goarm: 7
+            asset_name: aas-ctl-linux-armv7
 
     steps:
       - name: Checkout code
@@ -39,6 +46,7 @@ jobs:
         env:
           GOOS: ${{ matrix.goos }}
           GOARCH: ${{ matrix.goarch }}
+          GOARM: ${{ matrix.goarm }}
           CGO_ENABLED: 0
         run: go build -trimpath -ldflags="-s -w" -o ${{ matrix.asset_name }} .
 
