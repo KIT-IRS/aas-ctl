@@ -53,7 +53,7 @@ go version
 #### Option 1: Install via go install (recommended)
 
 ```shell
-go install gitlab.kit.edu/kit/irs/vsa/ideas/aasctl@latest
+go install github.com/KIT-IRS/aas-ctl@latest
 ```
 
 Test:
@@ -65,7 +65,7 @@ aas-ctl version
 #### Option 2: Build from source
 
 ```shell
-git clone https://gitlab.kit.edu/kit/irs/vsa/ideas/aasctl.git
+git clone https://github.com/KIT-IRS/aasctl.git
 cd aasctl
 go install .
 ```
