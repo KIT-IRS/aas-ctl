@@ -1114,4 +1114,4 @@ Add tests for new functionality where possible.
 1. Create a branch: `git checkout -b feature/my-feature`
 2. Commit your changes: `git commit -m "Add feature"`
 3. Push the branch: `git push origin feature/my-feature`
-4. Open a merge request on GitLab.
+4. Open a pull request on GitHub.
