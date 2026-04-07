@@ -1,4 +1,4 @@
-# AAS-CTL - Asset Administration Shell Command Line Tool
+# AAS-CTL - An Asset Administration Shell CLI Tool
 <p align="center">
     <img src="./logo/aas-ctl.png" alt="Description" width="300">
 </p>
